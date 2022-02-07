@@ -17,6 +17,6 @@ int main()
    int n;
    cout<<"Enter Any Number to find zero in its Factorial : ";
    cin>>n;
-   cout<<"Trailing Zeros in: "<<n<<"! is: "<< CountTrailingZero(n);
+   cout<<"Trailing Zeros in: "<<n<<"! is: "<<CountTrailingZero(n);
    return 0;
 }
