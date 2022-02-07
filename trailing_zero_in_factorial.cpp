@@ -1,3 +1,4 @@
+// Count Trailing Zeros in Factorial like 5!=120 have 0s=1 and in 10!=3628800 have 0s=2
 #include<iostream>
 using namespace std;
 int CountTrailingZero(int n)
