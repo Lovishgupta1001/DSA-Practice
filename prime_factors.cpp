@@ -1,17 +1,17 @@
 // Time Complexity is 1/3rd of O(sqrt n.logn)
 #include<iostream>
 using namespace std;
-void find_divisor(int);
+void prime_factor(int);
 int main()
 {
    int a;
    cout<<"Enter any No. : ";
    cin>>a;
-   find_divisor(a);
+   prime_factor(a);
    return 0;
 }
 
-void find_divisor(int n)
+void prime_factor(int n)
 {
    if(n<=1)
    return;
