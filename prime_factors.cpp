@@ -1,6 +1,5 @@
-// Time Complexity is 1/3rd of O(sqrt n)
+// Time Complexity is 1/3rd of O(sqrt n.logn)
 #include<iostream>
-#include<math.h>
 using namespace std;
 void prime_factor(int);
 int main()
