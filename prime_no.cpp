@@ -1,3 +1,4 @@
+// Time Complexity is 1/3rd of O(sqrt n)
 #include<iostream>
 #include<math.h>
 using namespace std;
