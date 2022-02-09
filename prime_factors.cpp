@@ -2,31 +2,31 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
-void prime_factor(long);
+void prime_factor(int);
 int main()
 {
-   long a;
+   int a;
    cout<<"Enter any No. : ";
    cin>>a;
    prime_factor(a);
    return 0;
 }
 
-void prime_factor(long n)
+void prime_factor(int n)
 {
    if(n<=1)
    return;
    while(n%2==0)
    {
-      cout<<n<<" ";
+      cout<<"2"<<" ";
       n/=2;
    }
    while(n%3==0)
    {
-      cout<<n<<" ";
+      cout<<"3"<<" ";
       n/=3;
    }
-   for(long i=5;i*i<=n;i+=6)
+   for(int i=5;i*i<=n;i+=6)
       {
          while(n%i==0)
          {
@@ -35,7 +35,7 @@ void prime_factor(long n)
          }
          while(n%(i+2)==0)
          {
-            cout<<i+2<<" ";
+            cout<<(i+2)<<" ";
             n/=(i+2);
          }
       }
