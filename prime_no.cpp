@@ -8,7 +8,7 @@ int main()
    int a,b;
    cout<<"Enter any No. : ";
    cin>>a;
-   cout<<"if 0: Not Prime\tif 1: Prime\n"<<prime(a);
+   cout<<"if 0: Not Prime & if 1: Prime\n"<<prime(a);
    return 0;
 }
 
