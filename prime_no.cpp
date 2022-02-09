@@ -14,7 +14,7 @@ int main()
 
 bool prime(int n)
 {
-   if(n==1)
+   if(n<=1)
    return false;
    if(n==2 || n==3)
    return true;
